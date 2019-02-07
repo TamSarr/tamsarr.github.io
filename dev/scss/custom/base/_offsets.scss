@@ -1,0 +1,23 @@
+/** @section Offsets */
+
+// Elements offset
+* + h1 { margin-top: 0.83em; }
+* + h2 { margin-top: 0.83em; }
+* + h3 { margin-top: 0.83em; }
+* + h4 { margin-top: 0.83em; }
+* + h5 { margin-top: 0.83em; }
+* + h6 { margin-top: 0.83em; }
+* + p { margin-top: 0.83em; }
+
+// Classes
+* + .row { margin-top: 40px; }
+
+// Extra large ≥1200px
+@include media-breakpoint-up(xl) {
+
+}
+
+// Mega large ≥1600px
+@include media-breakpoint-up(xxl) {
+	* + .row { margin-top: 50px; }
+}

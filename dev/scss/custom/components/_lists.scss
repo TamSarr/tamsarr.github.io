@@ -1,0 +1,18 @@
+/** @section Lists */
+
+// Vertical list
+.list {
+	> li + li {
+		margin-top: 10px;
+	}
+}
+
+.list-demo {
+	> li + li {
+		margin-top: 50px;
+	}
+}
+
+@include media-breakpoint-up(md) {
+
+}
