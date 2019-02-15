@@ -13,10 +13,16 @@
 @import 'base/reset';
 @import 'base/offsets';
 
+// Mixins
+@import 'mixins/grid';
+@import 'mixins/backgrounds';
+
 /** @group Components */
 @import 'components/type-custom';
 @import 'components/lists';
 
 /** @group Utilities */
+@import 'utilities/backgrounds';
+@import 'utilities/row-spacing';
 @import 'utilities/text-styling';
 @import 'utilities/sections';

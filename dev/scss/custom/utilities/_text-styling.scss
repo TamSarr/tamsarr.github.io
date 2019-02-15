@@ -1,10 +1,18 @@
 /** @section Text styling */
 
 // Text color
-.text-primary {
-	color: $primary !important;
-}
+.text-primary { color: $primary !important; }
+.text-info { color: $info-color;  }
+.text-warning { color: $warning-color;  }
+.text-danger { color: $danger-color;  }
+.text-success { color: $success-color;  }
+.text-disabled { color: $disabled-color;  }
+.text-accent-1 { color: $accent-color-1;  }
 
 .text-gray-500 {
 	color: $gray-500;
 }
+
+// Text styling
+.text-underline { text-decoration: underline; }
+.text-strike { text-decoration: line-through; }
