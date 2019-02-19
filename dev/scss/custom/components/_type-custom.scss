@@ -128,6 +128,7 @@ h6,
 * + h6 { margin-top: 0.83em; }
 * + p { margin-top: 0.63em; }
 p + p { margin-top: 0.53em; }
+.title-border-bottom + p { margin-top: 20px; }
 
 // Extra large ≥1200px
 @include media-breakpoint-up(xl) {
@@ -203,5 +204,24 @@ code,
 		height: 2px;
 		@include gradient-x($primary, $primary-light);
 		transform: translateX(-50%);
+	}
+}
+
+// Dropcap
+.dropcap {
+	&:first-letter {
+		float: left;
+		margin-left: -0.12em;
+		padding-right: 0.02em;
+		font-size: 100px;
+		font-weight: 300;
+		line-height: 0.78;
+	}
+
+	// Medium ≥768px
+	@include media-breakpoint-up(md) {
+		&:first-letter {
+			font-size: 120px;
+		}
 	}
 }

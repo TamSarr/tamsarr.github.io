@@ -11,11 +11,13 @@
 @import 'base/functions';
 @import 'base/variables';
 @import 'base/reset';
+@import 'base/image-custom';
 @import 'base/offsets';
 
 // Mixins
-@import 'mixins/grid';
 @import 'mixins/backgrounds';
+@import 'mixins/grid';
+@import 'mixins/type';
 
 /** @group Components */
 @import 'components/type-custom';

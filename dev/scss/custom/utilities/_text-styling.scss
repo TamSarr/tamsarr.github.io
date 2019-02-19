@@ -9,6 +9,14 @@
 .text-disabled { color: $disabled-color;  }
 .text-accent-1 { color: $accent-color-1;  }
 
+.text-gradient-1 {
+	@include text-gradient($primary, $primary-light)
+}
+
+.text-gradient-2 {
+	@include text-gradient($accent-color-1, $accent-color-2)
+}
+
 .text-gray-500 {
 	color: $gray-500;
 }

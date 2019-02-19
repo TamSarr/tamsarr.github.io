@@ -94,9 +94,33 @@ block page
 			p.text-primary This is primary text
 			p.text-accent-1 This is deluge text
 			p This is picton text
-			p This is primary empasized text
-			p This is deluge empasized text
+			p: span.text-gradient-1 This is primary empasized text
+			p: span.text-gradient-2 This is deluge empasized text
 			p This is picton empasized text
 			p.text-uppercase THIS TEXT IS UPPERCASED
 			p.text-capitalize This Text Is Capitalized
 			p.text-lowercase this text is lowercased
+
+	// Image Floating
+	section.section.section-lg.bg-default
+		.container
+			h2.title-border-bottom Image Floating
+			.img-float-wrap-1.clearfix
+				+img('typography-1-370x280').img-float-left-1
+				h3 This image is left floated
+				p We're dedicated to giving you the best service possible by keeping our solutions friendly, simple and effective. If you don’t trust our word for it, just ask the people who have successfully launched their websites designed by us.
+				p Our core principle is absolute transparency in everything. Come any time to check how your project is doing – our specialists will inform you about the progress.
+				p Among our clients there are many world-renowned industry leaders. Their websites are modern looking and reliable – thanks to us.
+
+			.img-float-wrap-1.text-sm-right.clearfix
+				+img('typography-1-370x280').img-float-right-1
+				h3 This image is left floated
+				p We're dedicated to giving you the best service possible by keeping our solutions friendly, simple and effective. If you don’t trust our word for it, just ask the people who have successfully launched their websites designed by us.
+				p Our core principle is absolute transparency in everything. Come any time to check how your project is doing – our specialists will inform you about the progress.
+				p Among our clients there are many world-renowned industry leaders. Their websites are modern looking and reliable – thanks to us.
+
+	// Text Dropcaps
+	section.section.section-lg.bg-default
+		.container
+			h2.title-border-bottom Text Dropcaps
+			p.dropcap Making money online is a kind of everyone’s dream job. No investments are needed and you can do whatever you need to do when you are in the mood or have free time. Flexible work schedule is something you’ll hardly get working at the office. However, online business rarely starts to bring you money from the very first day. It takes some time as a rule. But once you understand the whole process (like what are your abilities, where to work, for whom to work and so on) you'll be earning money in no time.
