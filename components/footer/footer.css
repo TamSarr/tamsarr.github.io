@@ -1,0 +1,1 @@
+.footer-title {	color: #151515;}.footer-default {	padding: 50px 0 30px;	border-top: 1px solid #e5e5e5;}.footer-default .footer-title + * {	margin-top: 1rem;}.footer-privacy {	padding: 20px 0;}@media (min-width: 992px) {	.footer-default {		padding: 67px 0 37px;	}	.footer-default .footer-title + * {		margin-top: 1rem;	}}

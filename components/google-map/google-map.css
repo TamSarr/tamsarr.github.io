@@ -1,0 +1,1 @@
+.google-map {	height: 250px;	width: 100%;	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.12);}.google-map img {	margin-top: 0;	vertical-align: top;}@media (min-width: 992px) {	.google-map {		height: 320px;	}}

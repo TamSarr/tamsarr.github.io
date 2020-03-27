@@ -1,8 +1,0 @@
-/** @section Row spacing */
-.row-20 { @include grid-offset(20px); }
-.row-30 { @include grid-offset(30px); }
-.row-50 { @include grid-offset(50px); }
-
-@include media-breakpoint-up(lg) {
-	.row-lg-30 { @include grid-offset(30px); }
-}
